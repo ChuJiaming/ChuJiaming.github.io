@@ -1,27 +1,41 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "name": "Jiaming Chu",
+    "label": "",
     "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "email": "ChuJiaming143@gmail.com",
+    "phone": "+86 137-8004-1128",
+    "url": "https://chujiaming.github.io/",
+    "summary": "A student with love to robotics and Artificial Intelligence.",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
+      "address": "No. 92 Xidazhi Street",
+      "postalCode": "150001",
+      "city": "Harbin",
+      "countryCode": "CN",
+      "region": "Heilongjiang"
     },
     "profiles": [
       {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
+        "network": "GitHub",
+        "username": "ChuJiaming",
+        "url": "https://github.com/ChuJiaming",
+        "icon": "fa-brands fa-github"
       }
     ]
   },
+  "education": [
+    {
+      "institution": "Harbin Institute of Technology",
+      "location": "Harbin, China",
+      "url": "http://www.hit.edu.cn/",
+      "area": "Intelligent Sensing",
+      "studyType": "Bachelor",
+      "startDate": "2021-08",
+      "endDate": "present",
+      "score": "",
+      "courses": []
+    }
+  ],
   "work": [
     {
       "name": "Institute for Advanced Study, Princeton University",
@@ -34,30 +48,8 @@
     }
   ],
   "volunteer": [
-    {
-      "organization": "People's Climate March",
-      "location": "Zurich, Switzerland",
-      "position": "Lead Organizer",
-      "url": "https://example.com",
-      "startDate": "2014-04-01",
-      "endDate": "2015-07-01",
-      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
-    }
   ],
-  "education": [
-    {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
-      "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
-      "score": "10",
-      "courses": ["Theory of Relativity"]
-    }
-  ],
+  
   "awards": [
     {
       "title": "Nobel Prize in Physics",
@@ -151,7 +143,7 @@
   ],
   "languages": [
     {
-      "language": "German",
+      "language": "Chinese",
       "fluency": "Native speaker",
       "icon": ""
     },

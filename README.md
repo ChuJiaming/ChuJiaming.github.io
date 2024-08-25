@@ -21,7 +21,7 @@ Then, open your browser and go to `http://localhost:8080/`.
 
 ---
 
-Other questions, you may need to install **Node.JS** in local environment or docker container and run the following command:
+Other questions, you may need to install **Node.js** in local environment and run the following command:
 
 ```bash
 npm install

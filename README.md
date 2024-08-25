@@ -10,7 +10,7 @@
 
 ---
 
-To run the website locally, you need to have Docker and Docker compose.
+To run the website locally, you need to have **Docker** and **Docker compose**.
 
 ```bash
 docker compose pull
@@ -21,10 +21,10 @@ Then, open your browser and go to `http://localhost:8080/`.
 
 ---
 
-Other questions, you may need to install npm in local environment or docker container and run the following command:
+Other questions, you may need to install **Node.JS** in local environment or docker container and run the following command:
 
 ```bash
 npm install
 ```
 
-This command will install the necessary packages, such as prettier, for the website to run.Or the format check in github workflow will fail.
+This command will install the necessary packages, such as prettier, for the website to run. Or the format check in github workflow will fail.

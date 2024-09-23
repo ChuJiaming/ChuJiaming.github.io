@@ -6,12 +6,21 @@ layout: default
     <header class="post-header">
       <h1 class="post-title">
         {{ page.title }}
-        {% if page.cv_pdf %}
+        {% if page.cv_cn_pdf %}
           <a
-            href="{{ page.cv_pdf | prepend: 'assets/pdf/' | relative_url}}"
+            href="{{ page.cv_cn_pdf | prepend: 'assets/pdf/' | relative_url}}"
             target="_blank"
             rel="noopener noreferrer"
             class="float-right"
+            ><i class="fa-solid fa-file-pdf"></i
+          ></a>
+        {% endif %}
+        {% if page.cv_en_pdf %}
+          <a
+            href="{{ page.cv_en_pdf | prepend: 'assets/pdf/' | relative_url}}"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="float-right mr-2"
             ><i class="fa-solid fa-file-pdf"></i
           ></a>
         {% endif %}
@@ -52,14 +61,23 @@ layout: default
     <header class="post-header">
       <h1 class="post-title">
         {{ page.title }}
-        {% if page.cv_pdf %}
+        {% if page.cv_cn_pdf %}
           <a
-            href="{{ page.cv_pdf | prepend: 'assets/pdf/' | relative_url}}"
+            href="{{ page.cv_cn_pdf | prepend: 'assets/pdf/' | relative_url}}"
             target="_blank"
             rel="noopener noreferrer"
             class="float-right"
-            ><i class="fa-solid fa-file-pdf"></i
-          ></a>
+            ><i class="fa-solid fa-file-pdf"></i> cn</a
+          >
+        {% endif %}
+        {% if page.cv_en_pdf %}
+          <a
+            href="{{ page.cv_en_pdf | prepend: 'assets/pdf/' | relative_url}}"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="float-right mr-2"
+            ><i class="fa-solid fa-file-pdf"></i>en |</a
+          >
         {% endif %}
       </h1>
       {% if page.description %}
